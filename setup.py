@@ -1,4 +1,5 @@
 import os
+from io import open
 from setuptools import setup
 
 README = open(os.path.join(os.path.dirname(__file__), 'README.rst'), encoding='utf-8').read()
